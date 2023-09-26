@@ -18,9 +18,7 @@ function checkAlphabet(X) {
 
 // You can Google about what is ASCII code to know more about
 
-  // why are we using numbers like 65, 91, 97 & 123
-
-  
+// why are we using numbers like 65, 91, 97 & 123
 
 if (strStartsWithALetter) {
 
