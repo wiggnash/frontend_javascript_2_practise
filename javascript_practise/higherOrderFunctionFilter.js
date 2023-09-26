@@ -24,7 +24,7 @@ function filterByCity(arr) {
                 return true;
           }else{
                 return false;
-          }
+          } 
     })
 
     return newArray;
