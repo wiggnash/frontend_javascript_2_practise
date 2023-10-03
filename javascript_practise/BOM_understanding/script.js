@@ -39,20 +39,23 @@
 
 // ====== SELECTING FROM THE NAME LIST ===========
 
-const nameList = document.getElementById("name-list");
-const extraItem = document.createElement("li");
-console.log(nameList);
-const childrens = nameList.children;
-console.log(childrens); // HTML Collection looks like array but not array
+// const nameList = document.getElementById("name-list");
+// const extraItem = document.createElement("li");
+// console.log(nameList);
+// const childrens = nameList.children;
+// console.log(childrens); // HTML Collection looks like array but not array
 
-const childrenArray = Array.from(childrens); // Converting the HTML Collection to the
-//actual array 
-console.log(childrenArray);
+// const childrenArray = Array.from(childrens); // Converting the HTML Collection to the
+// //actual array 
+// console.log(childrenArray);
 
 
-for(let i = 0;i < childrenArray.length;i++){
-    const listItem = childrenArray[i];
-    const text = listItem.innerText;
-    console.log(listItem);
-    console.log(text);
-}
+// for(let i = 0;i < childrenArray.length;i++){
+//     const listItem = childrenArray[i];
+//     const text = listItem.innerText;
+//     console.log(listItem);
+//     console.log(text);
+// }
+
+
+console.log("hello world")
